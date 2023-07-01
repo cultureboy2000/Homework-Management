@@ -1,1 +1,1 @@
-# Homework-Manegement
+# Homework-Management
