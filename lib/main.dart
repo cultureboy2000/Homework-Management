@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+new text
 
 void main() {
   runApp(const MyApp());
@@ -103,14 +104,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             ElevatedButton(
-              child: Text('次ページ'),
+              child: Text('次ペ�?�ジ'),
               onPressed: () {
                 Navigator.push(
                     context, MaterialPageRoute(builder: (context) =>NextPage()));
               },
             ),
             TextButton(
-              onPressed: () { /* ボタンがタップされた時の処理 */ },
+              onPressed: () { /* ボタンがタ�?プされた時�?�処�? */ },
               child: Text('click here'),
             ),
             TextField(
@@ -125,7 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
               controller: c,
               obscureText: true,
               onChanged: (text) {
-                // TODO: ここで取得したtextを使う
+                // TODO: ここで取得したtextを使�?
                 name = text;
               },
               //onChanged: _passwordChanged,
@@ -161,19 +162,19 @@ class NextPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('【画面遷移デモ】2ページ'),
+        title: Text('【画面遷移�?モ�?2ペ�?�ジ'),
         backgroundColor: Colors.red,
       ),
       body: Center(
         child: ElevatedButton(
-          child: Text("戻る"),
+          child: Text("戻�?"),
           onPressed: () {
             Navigator.pop(context);
           },
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text('次ページ'),
+        child: Text('次ペ�?�ジ'),
         onPressed: (){
 
           Navigator.push(
@@ -199,7 +200,7 @@ class NextPage2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('【画面遷移デモ】3ページ'),
+        title: Text('【画面遷移�?モ�?3ペ�?�ジ'),
         backgroundColor: Colors.red,
       ),
       body: Center(
@@ -207,7 +208,7 @@ class NextPage2 extends StatelessWidget {
 
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text('次ページ'),
+        child: Text('次ペ�?�ジ'),
         onPressed: (){
 
           Navigator.push(
@@ -279,7 +280,7 @@ class NextPage3 extends StatelessWidget {
 
             TextField(
               decoration: InputDecoration(
-                labelText: '科目名',
+                labelText: '科目�?',
                 //hintText: 'Password',
                 //icon: Icon(Icons.security),
               ),
@@ -289,7 +290,7 @@ class NextPage3 extends StatelessWidget {
               controller: c,
               //obscureText: true,
               onChanged: (text) {
-                // TODO: ここで取得したtextを使う
+                // TODO: ここで取得したtextを使�?
                 name = text;
               },
               //onChanged: _passwordChanged,
@@ -298,14 +299,14 @@ class NextPage3 extends StatelessWidget {
 
             TextField(
               decoration: InputDecoration(
-                labelText: '締切日',
+                labelText: '�?�?日',
 
               ),
 
               controller: c1,
               //obscureText: true,
               onChanged: (text) {
-                // TODO: ここで取得したtextを使う
+                // TODO: ここで取得したtextを使�?
                 name = text;
               },
               //onChanged: _passwordChanged,
@@ -314,7 +315,7 @@ class NextPage3 extends StatelessWidget {
 
             TextField(
               decoration: InputDecoration(
-                labelText: '内容',
+                labelText: '�?容',
                 //hintText: 'Password',
                 //icon: Icon(Icons.security),
               ),
@@ -324,7 +325,7 @@ class NextPage3 extends StatelessWidget {
               controller: c2,
               //obscureText: true,
               onChanged: (text) {
-                // TODO: ここで取得したtextを使う
+                // TODO: ここで取得したtextを使�?
                 name = text;
               },
               //onChanged: _passwordChanged,
@@ -336,7 +337,7 @@ class NextPage3 extends StatelessWidget {
 
 
             TextButton(
-              onPressed: () { /* ボタンがタップされた時の処理 */ },
+              onPressed: () { /* ボタンがタ�?プされた時�?�処�? */ },
               child: Text('登録'),
             ),
 
